@@ -7,4 +7,9 @@ import in.mahi.response.SearchResponse;
 
 public interface InsurancePlanService {
   public List<SearchResponse> SearchPlans(SearchRequest searchRequest);
+
+   public List<String> getPlanNames();
+   public List<String> getPlanStatus();
+  
+  
 }
